@@ -1,6 +1,6 @@
 const testEl = document.getElementById("test");
 
-fetch("https://www.thecolorapi.com/id?hex=0047AB")
+fetch("https://www.thecolorapi.com/id?hex=0047AB&mode=analogic")
   .then((res) => res.json())
   .then((data) => {
     showHexColor(data);
